@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Card_html from "./components/Card_html";
-import Card_css from "./components/card_css";
+import Card_css from "./components/Card_css";
 import Card_js from "./components/Card_js";
 import Card_Resct from "./components/Card_Resct";
 
