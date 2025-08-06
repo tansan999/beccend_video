@@ -23,10 +23,10 @@ export default function App() {
       <DivAAA>Database</DivAAA>
       <Card_js />
 
-      <DivAAA>Sping wraemwork</DivAAA>
+      <DivAAA>Spring framework</DivAAA>
       <Card_Resct />
 
-    <DivAAA>Каждое одельное тема</DivAAA>
+    <DivAAA>Остольное</DivAAA>
       <Card_2_beckend />
 
     </DivApp>
