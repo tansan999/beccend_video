@@ -8,11 +8,13 @@ export default function App() {
   return (
     <DivApp>
       <DivAAA>
-        Beckend <br /> <br /> 1
+        Beckend <br /> <br /> Java
+      {/* https://lms.peaksoft.house/student/courses/118/materials?size=31&page=1 */}
       </DivAAA>
       <Card_html />
 
       <DivAAA>2</DivAAA>
+      {/* https://lms.peaksoft.house/student/courses/130/materials?size=31&page=1 */}
       <Card_css />
 
       <DivAAA>3</DivAAA>

@@ -18,13 +18,14 @@ export default function Card_react() {
                 Смотреть видео
               </CardLink>
 
-              <CatdPractic
+              {/* <CatdPractic
                 href={note.practicLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Смотреть Практику
-              </CatdPractic>
+              </CatdPractic> */}
+
             </MapCard>
           )}
         </CardWrapper>
