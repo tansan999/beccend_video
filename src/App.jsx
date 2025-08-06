@@ -3,25 +3,32 @@ import Card_html from "./components/Card_html";
 import Card_css from "./components/Card_css";
 import Card_js from "./components/Card_js";
 import Card_Resct from "./components/Card_Resct";
+import Card_2_beckend from "./components/Card_2_beckend";
 
 export default function App() {
   return (
     <DivApp>
       <DivAAA>
         Beckend <br /> <br /> Java
-      {/* https://lms.peaksoft.house/student/courses/118/materials?size=31&page=1 */}
+        {/* https://lms.peaksoft.house/student/courses/118/materials?size=31&page=1 */}
       </DivAAA>
       <Card_html />
 
-      <DivAAA>2</DivAAA>
+      <DivAAA>
+        2 этап <br /> <br /> Java Advanced Beckend
+      </DivAAA>
       {/* https://lms.peaksoft.house/student/courses/130/materials?size=31&page=1 */}
       <Card_css />
 
-      <DivAAA>3</DivAAA>
+      <DivAAA>Database</DivAAA>
       <Card_js />
 
-      <DivAAA>4</DivAAA>
+      <DivAAA>Sping wraemwork</DivAAA>
       <Card_Resct />
+
+    <DivAAA>Каждое одельное тема</DivAAA>
+      <Card_2_beckend />
+
     </DivApp>
   );
 }

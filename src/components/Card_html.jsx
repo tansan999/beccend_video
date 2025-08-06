@@ -18,6 +18,8 @@ export default function Card_react() {
                 Смотреть видео
               </CardLink>
 
+                
+
               {/* <CatdPractic
                 href={note.practicLink}
                 target="_blank"

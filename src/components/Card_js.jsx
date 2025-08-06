@@ -20,13 +20,7 @@ export default function Card_react() {
                 Смотреть видео
               </CardLink>
 
-              <CatdPractic
-                href={note.practicLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Смотреть Практику
-              </CatdPractic>
+              
             </MapCard>
           )}
         </CardWrapper>
@@ -74,7 +68,6 @@ const React_ = styled.div`
   align-items: flex-start;
   gap: 24px;
   padding: 40px;
-  min-height: 100vh;
 `;
 const CatdPractic = styled.a`
   color: #000;

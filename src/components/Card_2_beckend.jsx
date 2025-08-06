@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { four } from "../lessons";
+import { five } from "../lessons";
 
-export default function Card_react() {
+export default function Card_2_beckend() {
   return (
     <React_>
-      {four.map((note, idx) => (
+      {five.map((note, idx) => (
         <CardWrapper key={idx}>
           <CardTitle>{note.title}</CardTitle>
           {note.link && (
@@ -17,8 +17,7 @@ export default function Card_react() {
               >
                 Смотреть видео
               </CardLink>
-
-           
+             
             </MapCard>
           )}
         </CardWrapper>
